@@ -1,11 +1,11 @@
-About fasttreeshap
-==================
+About fasttreeshap-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fasttreeshap-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/linkedin/fasttreeshap
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fasttreeshap-feedstock/blob/main/LICENSE.txt)
 
 Summary: A fast implementation of TreeSHAP algorithm.
 
