@@ -1,5 +1,5 @@
 {% set name = "fasttreeshap" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fasttreeshap-{{ version }}.tar.gz
-  sha256: 2c7653dce42c7f7457e867dae2f73bb58854de83eb12089a20fa7df20c38b087
+  sha256: cea11b3122f7e41eb90730547a6a0c34c5be6baf7798677fd7a4c3d3b4ab8e6d
 
 build:
   skip: true  # [py<37]
