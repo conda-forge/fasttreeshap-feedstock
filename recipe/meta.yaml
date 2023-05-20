@@ -20,13 +20,13 @@ requirements:
     - llvm-openmp  # [osx]
     - libgomp  # [linux]
   host:
-    - numpy <1.22
+    - numpy
     - pip
     - python
   run:
     - cloudpickle
     - numba
-    - numpy <1.22
+    - numpy
     - packaging >20.9
     - pandas
     - psutil
