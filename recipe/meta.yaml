@@ -6,13 +6,13 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fasttreeshap-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fasttreeshap-{{ version }}.tar.gz
   sha256: 96b31e1451bef54faaa996b3d9090df8b11c7a3d49892765913ba491ed5e4c5c
 
 build:
   skip: true  # [py<37]
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -37,7 +37,6 @@ requirements:
     - shap
     - slicer ==0.0.7
     - tqdm >4.25.0
-    - {{ pin_compatible('numpy') }}
 
 test:
   imports:
