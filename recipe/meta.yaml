@@ -24,6 +24,8 @@ requirements:
     - numpy
     - pip
     - python
+    - setuptools
+    - wheel
   run:
     - cloudpickle
     - numba
